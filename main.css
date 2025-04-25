@@ -1,0 +1,209 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.col-lg-6{
+    padding: 0;
+    margin: 0;
+}
+.green {
+    background-color: greenyellow;
+}
+
+.pink {
+    background-color: palevioletred;
+}
+
+
+.row {
+    margin: 0;
+    padding: 0;
+}
+
+.col {
+    padding: 0;
+    padding: 0;
+}
+
+.backgroundOne {
+    background-image: url(pic/n4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    position: relative;
+}
+
+.backgroundText {
+    height: 440px;
+    text-align: end;
+    padding: 20px;
+    padding-top: 250px;
+}
+
+.btnOne{
+    padding: 5px 25px;
+    background-color: #14473E;
+    border: 0px;
+    color: white;
+
+}
+.btnSub{
+    padding: 6px 25px;
+    background-color: #14473E;
+    border: 0px;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+/* 
+----------------------
+    service area
+----------------------
+ */
+
+.headng {
+    border-bottom: 2px solid greenyellow;
+    text-align: center;
+}
+
+/* .serviceHeight {
+    height: 70px;
+} */
+
+/* 
+----------------------
+    subscribe area
+----------------------
+*/
+
+.parallaxImage{
+    height: 150px;
+    background-image: url(pic/n3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.h3{
+    font-size: clamp(20px,3vw,30px);
+}
+
+#subEmail::placeholder{
+    color: white;
+    text-align: center;
+}
+
+.glass{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.098);
+    backdrop-filter: blur(1px);
+}
+.eml{
+    width: 60%;
+    border: 0px solid white;
+    border-radius: 5px;
+    padding: 8px 10px;
+    background-color: rgba(0, 0, 0, 0.13);
+
+}
+
+
+/* 
+----------------------
+    products area
+----------------------
+*/
+
+.productOne{
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(pic/four.jpg);
+}
+
+.col-md-6,col-10,col-7,col-sm-6{
+    padding: 0;
+}
+
+
+/* ---------- hover propertys || start ---------- */
+.backgroundImageOne{
+    background-image: url(pic/111.jpg);
+    background-size: cover;
+}
+.backgroundImageTwo{
+    background-image: url(pic/222.jpg);
+    background-size: cover;
+}
+.backgroundImageThree{
+    background-image: url(pic/333.jpg);
+    background-size: cover;
+}
+.backgroundImageFour{
+    background-image: url(pic/444.jpg);
+    background-size: cover;
+}
+
+.content {
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: rgba(0, 0, 0, .6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.content:hover {
+    opacity: 1;
+}
+
+.content h1 {
+    font-size: 20px;
+    color: yellow;
+}
+
+.content p {
+    font-size: 10px;
+    color: white;
+}
+
+.content > * {
+    transform: translateY(25px);
+    transition: transform 0.5s;
+}
+
+.content:hover > * {
+    transform: translateY(0px);
+}
+/* ---------- hover propertys || end ---------- */
+
+
+/* 
+----------------------
+    CONTACT US
+----------------------
+*/
+
+h4{
+    font-size: clamp(1rem,2vw,2rem);
+}
+
+@media screen and (max-width:576px) {
+
+    .backgroundText {
+        height: 440px;
+        text-align: center;
+        padding: 20px;
+        padding-top: 250px;
+    }
+}
+
